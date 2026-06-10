@@ -1,0 +1,34 @@
+:root {
+  --bg: #fafafa;
+  --card: #fff;
+  --muted: #8e8e8e;
+  --primary: #0095f6;
+  --fb: #1877f2;
+  --border: #dbdbdb;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  --radius: 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial;
+  background: var(--bg);
+  color: #111;
+}
